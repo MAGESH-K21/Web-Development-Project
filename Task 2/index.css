@@ -1,0 +1,184 @@
+
+* {
+  margin: 0;
+  font-family: "Viaoda Libre", cursive;
+  color: #333;
+}
+.navbar {
+background-color:royalblue;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  /* max-width: 600px; */
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  /* border-radius: 20px; */
+}
+.navbar h1 {
+  color: white;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  
+  color: #f1356d;
+}
+.home {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.blog-preview {
+ 
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+
+.user{
+    display: flex;
+}
+.blog-preview:hover {
+  box-shadow: 3px 5px 5px rgba(42, 253, 0);
+}
+
+.blog-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+
+.blog-preview a {
+text-decoration: none;
+}
+.name p{
+    padding: 5px;
+}
+
+
+
+.loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+.blog-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.intro{
+    text-align: center;
+    font-size: 30px;
+}
+.main1{
+    /* display: flex; */
+    max-width: 600px;
+    margin-left: 20%;
+}
+.head{
+    padding: 20px;
+}
+
+.im{
+
+    margin-left: 100%;
+    width: 300px;
+    
+}
+
+.main1 p{
+    padding: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .im{
+      margin-left: 0px;
+  }
+  .links{
+      display: flex;
+      flex-direction: column;
+  }
+  .navbar{
+      width: max-content;
+  }
+  
+}

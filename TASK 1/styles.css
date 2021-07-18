@@ -1,0 +1,582 @@
+
+section,footer,.projdiv{
+  width: 100vw;
+}
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  width: 100vw;
+  position: relative;
+}
+.top1{
+  width: 100vw;
+  margin: 0;
+  background: url('images/wallpaper1.jpg') no-repeat center;
+  background-size:cover;
+  background-position: 0 0;
+  height: 100vh;
+  }
+.carousel-indicators li{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+  visibility: hidden;
+}
+.navbar  {
+    display: block;
+  }
+  .collapse{
+    margin-top: -40px;
+        line-height: 0.5;
+  }
+
+
+        .navbar-brand{
+          font-size: 2rem;
+          margin-left: 250px;
+        }
+        #testimonial-carousel{
+          color: white;
+        }
+  #testimonial-carousel small
+        {
+          font-size: medium;
+          font-family: 'Poppins', sans-serif;
+
+        }
+        .message{
+          width: 50vw;
+           margin-left: 250px;
+          margin-top: 100px;
+        }
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+  color: #FCDA66;
+}
+.btn {
+  background: #66235E;
+  background-image: -webkit-linear-gradient(top, #66235E, #66235E);
+  background-image: -moz-linear-gradient(top, #66235E, #66235E);
+  background-image: -ms-linear-gradient(top, #66235E, #66235E);
+  background-image: -o-linear-gradient(top, #66235E, #66235E);
+  background-image: linear-gradient(to bottom, #66235E, #66235E);
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family:  'Montserrat', sans-serif;
+  color: white;
+  font-size:medium;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+
+ .btn:hover {
+  background: #FCDA66;
+  background-image: -webkit-linear-gradient(top, #FCDA66, #FCDA66);
+  background-image: -moz-linear-gradient(top, #FCDA66, #FCDA66);
+  background-image: -ms-linear-gradient(top, #FCDA66, #FCDA66);
+  background-image: -o-linear-gradient(top, #FCDA66, #FCDA66);
+  background-image: linear-gradient(to bottom, #FCDA66, #FCDA66);
+  text-decoration: none;
+}
+#home btn{
+  color:#66235E;
+}
+#home h1{
+  color:black;
+text-align: center;
+  margin-top: 45px;
+}
+.homediv{
+  width: 50vw;
+
+    margin-left: 250px;
+}
+.cols{
+  text-align: center;
+  width: 55vw;
+}
+#home .this{
+  display: inline-block;
+width: 50vw;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+#home p{
+  display: inline-block;
+width: 25vw;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+  .icon{
+    color: black;
+  }
+  .icon:hover{
+    color: darkgray;
+  }
+
+ .rowhome{
+  margin-left: 200px;
+width: 100vw;
+text-align: center;
+
+}
+.rowpro{
+
+      width: 100vw;
+      text-align: center;
+      height: 100%;
+}
+  hr{
+       margin-top:50px;
+        height: 1px;
+        background-color: darkgray;
+        border: none;
+        width:40%
+    }
+#projects h1{
+  color:#000000;
+  text-align: center;
+}
+.lastimage{
+  width: 223px;
+  height: 350px;
+  margin-top: 70px;
+}
+#projects .task{
+  width: 250px;
+height: 300px;
+margin-top: 70px;
+}
+
+.btnp{
+      font-size: smaller;
+      background:white;
+      color: black;
+}
+.btnp:hover{
+  background: #66235E;
+  color: white;
+}
+#projects p{
+  font-size: 0.8rem;
+}
+
+#projects h3{
+  margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.first{
+  text-align: left;
+
+  padding: inherit;
+  background-color: gainsboro;
+  width: 250px;
+  height: 300px;
+
+  display: inline-block;
+}
+.first:hover{
+  background-color:#FCDA66;
+}
+#pricing{
+  text-align: center;
+  margin-top: 40px;
+}
+#pricing h1{
+  text-align: center;
+  color: black;
+}
+
+.price{
+  color:gainsboro;
+}
+#pricing h3{
+  font-size: 1rem;
+}
+.btnprice{
+background :#FCDA66;
+color: black;
+
+}
+.btnprice:hover{
+  background: #66235E;
+  color: white;
+}
+.rowp{
+      margin-left: 250px;
+      font-size: 1rem;
+}
+.vertical{
+  border-left: 3px outset lightgray;
+height: 260px;
+position: absolute;
+left: 580px;
+        }
+.v{
+  border-left: 3px outset lightgray;
+height: 260px;
+position: absolute;
+left: 5px;
+}
+#testimonial{
+   height: 430px;
+   background-color:#66235E
+}
+.colsb{
+  padding-top: 20px;
+}
+.card {
+
+margin: 30px 30px;
+  transition: .6s ease;
+  border: 0;
+  background:  #66235E;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-block {
+   padding: 10px;
+}
+.scrollcards {
+  background-color: #66235E;
+  overflow: auto;
+  white-space: nowrap;
+  width: 1491.990px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background: transparent;
+}
+video:-webkit-full-page-media
+{
+  margin-top: 0px;
+      margin-bottom: 0px;
+}
+
+div.scrollcards .card {
+    display: inline-block;
+    padding: 14px;
+    text-decoration: none;
+    height: auto;
+    width: 728px;
+    background:  #66235E;
+}
+.crow{
+  width:1462px;
+}
+.card-text{
+  margin-left: 330px;
+  font-size: 0.8rem;
+}
+iframe{
+  border:0;
+}
+#video{
+  margin-top: 30px;
+  color:white;
+  background-color:  #66235E;
+}
+#video p{
+  text-align: end;
+}
+#team{
+
+  margin-top: 50px;
+}
+.container{
+
+
+  width: 350px;
+    padding-left: 0px;
+    padding-right: 0px;
+  border:2px ;
+
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+#team img{
+  margin-top: 0px;
+}
+.imagebox{
+  position: relative;
+  width: 180px;
+  height: 180px;
+  border:2px ;
+ /* overflow: hidden; */
+  margin-left: 180px;
+    border-radius: 50%;
+}
+.imagebox img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%
+}
+
+.rowt{
+  width: 100vw;
+margin-left: 100px;
+}
+
+.content{
+width: 100%;
+height: 100%;
+border:2px solid black;
+background-color: #66235E;
+opacity: 0;
+border-radius: 50%;
+display: flex;
+align-items: center;
+flex-direction: column;
+position: absolute;
+top: 0px;
+left:0px;
+}
+.imagebox:hover .content{
+  opacity:0.5;
+}
+#team ul{
+    list-style-type: none;
+    display: inline;
+    margin-left: 50px;
+    line-height: 3.4;
+    width: 120px;
+    height: 100px;
+padding-left: 0px;
+margin-bottom: 0px;
+margin-top: 35%;
+letter-spacing: 7px;
+margin-right: 50px;
+
+}
+#team li{
+  margin-left: 0px;
+  width:30px;
+  display: inline;
+}
+#team{
+  text-align: center;
+}
+#team a{
+  color: white;
+}
+#team a:hover{
+  color: darkgray;
+}
+.textdiv{
+width: 25%;
+    margin-left: 250px;
+}
+#team small{
+  color: darkgray;
+}
+#life{
+padding: 20px;
+  text-align: center;
+  height: 570px;
+  background-color: gainsboro;
+}
+#life img{
+  margin-top: 30px;
+  width: 500px;
+    height: 380px;
+}
+#newsletter{
+
+  background: url('images/bridge4.jpg') no-repeat center;
+  background-size:cover;
+  background-size:cover;
+  background-position: 0%;
+  height: 300px;
+  padding-top: 5px;
+    text-align: center;
+  }
+  #newsletter h1{
+          font-family: 'Montserrat', sans-serif;
+
+          color: white;
+          margin-top: 30px;
+  }
+  #newsletter input{
+    width: 407.98058px;
+height: 45.98058px;
+border-radius: 1px;
+border: 0;
+margin-top: 40px;
+  }
+  :focus-visible {
+      outline: -webkit-focus-ring-color auto 0px;
+  }
+  .sign{
+    background: #FCDA66;
+    margin-top: 0;
+    width: 100px;
+    height:  45.98058px;
+    color: black;
+    border-radius:1px;
+    margin-bottom: 3px;
+position: relative;
+right: 5px;
+}
+.sign:hover{
+  background:#66235E;
+}
+.sign2{
+  width: 100px;
+  height:  45.98058px;
+  border-radius: 1px;
+  margin-left: 410px;
+}
+#blog{
+  padding: 30px 150px;
+text-align: center;
+}
+#blog h1{
+  color: black;
+
+}
+#blog img{
+  width: 300px;
+  height: 200px
+}
+.rowb{
+  width: 100vw;
+  margin-left: 0px;
+  padding-top: 30px;
+}
+#blog p{
+  padding-top: 20px;
+
+  font: caption;
+  font-weight: 600;
+}
+.btnblog{
+  background: darkgray;
+}
+#contact{
+
+  text-align: left;
+}
+#contact img{
+  width: 700px;
+  height: 530px;
+}
+.rowc{
+  width: 100vw;
+  margin-left: 40px;
+}
+.colc{
+  left: 280px;
+padding:0;
+    margin-top: 10px;
+    background-color: #FCDA66;
+}
+.coldiv{
+  padding: 0;
+}
+#contact input,textarea{
+  border: 0;
+  width: 400px;
+}
+
+#contact label{
+  font-size: small;
+}
+.btnc{
+  width: 371.990292px;
+  border-radius: 0px;
+
+}
+.rowf{
+  margin-left: 400px;
+}
+footer{
+  margin-top: 70px;
+  height: 150px;
+  text-align: center;
+}
+footer p{
+
+
+    line-height: 1;
+    font-family: 'Roboto', sans-serif
+}
+.foot{
+    font-family:'Noto Sans', sans-serif;
+  font-size: large;
+  margin-bottom: 0
+
+}
+.footicons{
+  margin-top: 35px;
+  line-height: 3;
+}
+.i:hover{
+  color: darkgray;
+}
+footer a{
+  padding-left: 30px;
+}
+@media screen and (max-width:980px){
+  #projects{
+    height: 2800px;
+  }
+
+  #team{
+    height: 2000px;
+  }
+  #blog{
+    height: 1690px;
+      padding-left: 100px;
+  }
+  #blog .rowb {
+    width: 45vw;
+  }
+
+  #contact .colc{
+   margin-top: 30px;
+left:0
+  }
+  #projects .rowpro,#pricing .rowp{
+        margin-left: 12px;
+  }
+  #contact .rowc{
+    margin-left: 10px;
+  }
+
+  footer .rowf,#team .rowt{
+        margin-left: 0px;
+  }
+  #testimonial-carousel .message{
+    margin-left: 170px;
+  }
+  #home .homediv,#home .rowhome{
+  margin-left: 100px;
+  }
+  .navbar-nav{
+    width: 90vw;
+    margin-top: 20px;
+  }
+
+}
